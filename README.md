@@ -25,23 +25,10 @@ The code will output two .npy files xdata and ydata that are ready to be inputte
 
 Training and simulation are performed using python code organized in a jupyter notebook that runs preferably in Google colab **BIGCUBE_V2.ipynb**. To open it you can either clone this repository and upload the notebook to Google colab, or create a fork of the repository and open it directly from github using Google colab. The notebook also contains functions for exporting the model weights as a file for compiling the microcontroller code, tools for checking connections between real cubes and tools for generating graphs. For further instructions check the different cell descriptions inside the notebook. 
 
-## Training the neural network:
-
-To train the neural network I use a google colab notebook. The first notebook cell is responsible for training the data. It reads the xdata.npy and ydata.npy files created using the process in the previous section. N.B for this notebook to run you also need nca3d_v1.py in the same folder.
-
-Once the first cell of the notebook in completed, the model is saved in models/dropout.
-
-
-## Simulation of cubes 
-The next cell of the notebook simulated how the cells would perform in hardware. This is then visualised in the cell below. The cells change colour with respect to what cell they think they are a part of. See table above for the colours.
-This cell also outputs an array of the percentage of correctly identified cells, which can be used for graph plotting :) there’s also a loop function, where you can run each shape several times. Because of the randomness of the cell updates sometimes the results vary.
-
 ## Outputting neural network for firmware
 To output the neural network to be uploaded to the firmware, run the corresponding cell in the jupyter notebook. It produces a text file that can be copied directly into the neural_network.h required by the firmware.
 
-
 ## Cube firmware
-
 The cube firmware is saved in the 3DCubePlatformIO folder. You also need the neural_network.h file located in the root file of the repository. The following steps have been tested on Windows 10 and 11.
 
 ### Compiling
