@@ -1,0 +1,11 @@
+FROM python:3.12
+
+WORKDIR /code
+
+COPY ./requirements.txt /code/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+COPY ./StatusReceiver.py /code/
+
+CMD ["fastapi", "run", "StatusReceiver.py", "--proxy-headers" ,"--port", "5000"]
