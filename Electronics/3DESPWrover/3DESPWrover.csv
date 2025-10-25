@@ -1,0 +1,24 @@
+Reference, Value, Footprint, Datasheet, Voltage;;;;;;;;;;;;;;;
+"U1,""ESP32-S2-WROVER"",""RF_Module:ESP32-S2-WROVER"",""https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf""";;;;;;;;;;;;;;;
+"C1,""10u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"C2,""10u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"C3,""10u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"C4,""10u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"J2,""Conn_01x03_Female"",""Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"",""~""";;;;;;;;;;;;;;;x
+"C9,""22u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~"",""10V""";;;;;;;;;;;;;;;x
+"C10,""22u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~"",""10V""";;;;;;;;;;;;;;;x
+"C11,""10u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~"",""50V""";;;;;;;;;;;;;;;x
+"L1,""10u"",""Custom:L_4.5x4_H3.2"",""~""";;;;;;;;;;;;;;;x
+"SW2,""SW_Push"",""Button_Switch_SMD:SW_SPST_B3S-1000"",""~""";;;;;;;;;;;;;;;x
+"SW1,""SW_Push"",""Button_Switch_SMD:SW_SPST_B3S-1000"",""~""";;;;;;;;;;;;;;;x
+"C8,""1u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"R3,""10k"",""Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"D1,""WS2812B"",""LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"",""https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf""";;;;;;;;;;;;;;;
+"R1,""5.1k"",""Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"R2,""5.1k"",""Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"C6,""0.1u"",""Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"J1,""Conn_01x05_Male"",""Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"",""~""";;;;;;;;;;;;;;;x
+"J3,""Conn_02x03_Odd_Even"",""Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"",""~""";;;;;;;;;;;;;;;x
+"J4,""Conn_02x07_Odd_Even"",""Custom:TE_Micromatch_2,54_14"",""~""";;;;;;;;;;;;;;;x
+"R4,""10k"",""Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"",""~""";;;;;;;;;;;;;;;x
+"NT1,""Net-Tie_2"",""NetTie:NetTie-2_SMD_Pad0.5mm"",""~""";;;;;;;;;;;;;;;

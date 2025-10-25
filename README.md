@@ -37,6 +37,9 @@ To be able to upload the firmware to the cubes it should first be compiled. The 
 ### Uploading
 To upload the firmware.bin file first make sure the cubes are connected to the same local network. Then navigate to the OTApython folder and run the ESPuploadParallel.py script. This script should upload the firmware to all cubes connected in the network. To change the subnet that is scanned by the script, change the address ranges in lines 18, 80, 86, 52 and 53.
 
+## Electronics
+This folder contains the electronic PCB designs necessary to fabricate a cube.
+
 ### Getting data from the cubes
 
 After all cubes have been programmed. Turn them off, navigate to the StateReceivers and launch the **docker-compose.yaml** server. This requires that you have [docker](docker.com/) installed in your system and assumes that you have a [mongodb](mongodb.com/) installation with a **Test** database and a **Dummy** collection set up. Additionally make sure that the computer where you launch the server is on IP 192.168.72.22 and that you have firewall permissions to receive on TCP port 8000. You can change the server address in the firmware (/3DCubePlatformIO/src/3d_cube.ino) in line 688, this needs the cubes to be reprogrammed. After you launch the server, turn on the assembled cubes. The cubes will first perform the classification process, then connect to the network specified in lines 602 and 603 in the firmware (/3DCubePlatformIO/src/3d_cube.ino) and then post the data to the server.

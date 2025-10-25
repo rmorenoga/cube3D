@@ -1,0 +1,466 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J1
+U 1 1 61C37D8B
+P 1800 1500
+F 0 "J1" H 1850 2017 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 1850 1926 50  0000 C CNN
+F 2 "Custom:TE_Micromatch_2,54_14_SMD" H 1800 1500 50  0001 C CNN
+F 3 "~" H 1800 1500 50  0001 C CNN
+	1    1800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61C3ADBA
+P 1150 1050
+F 0 "#PWR01" H 1150 800 50  0001 C CNN
+F 1 "GND" H 1155 877 50  0000 C CNN
+F 2 "" H 1150 1050 50  0001 C CNN
+F 3 "" H 1150 1050 50  0001 C CNN
+	1    1150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 61C3B0F0
+P 2550 1050
+F 0 "#PWR04" H 2550 800 50  0001 C CNN
+F 1 "GND" H 2555 877 50  0000 C CNN
+F 2 "" H 2550 1050 50  0001 C CNN
+F 3 "" H 2550 1050 50  0001 C CNN
+	1    2550 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 950  1150 950 
+Wire Wire Line
+	1150 950  1150 1050
+Wire Wire Line
+	2300 1200 2300 950 
+Wire Wire Line
+	1350 950  1350 1200
+Wire Wire Line
+	1350 1200 1600 1200
+Wire Wire Line
+	2100 1200 2300 1200
+$Comp
+L power:VCC #PWR02
+U 1 1 61C3BECF
+P 1150 2000
+F 0 "#PWR02" H 1150 1850 50  0001 C CNN
+F 1 "VCC" H 1165 2173 50  0000 C CNN
+F 2 "" H 1150 2000 50  0001 C CNN
+F 3 "" H 1150 2000 50  0001 C CNN
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 61C3C01D
+P 2450 2000
+F 0 "#PWR03" H 2450 1850 50  0001 C CNN
+F 1 "VCC" H 2465 2173 50  0000 C CNN
+F 2 "" H 2450 2000 50  0001 C CNN
+F 3 "" H 2450 2000 50  0001 C CNN
+	1    2450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1800 2100 2100
+Wire Wire Line
+	2100 2100 2450 2100
+Wire Wire Line
+	2450 2100 2450 2000
+Wire Wire Line
+	1600 1800 1600 2100
+Wire Wire Line
+	1600 2100 1150 2100
+Wire Wire Line
+	1150 2100 1150 2000
+Wire Wire Line
+	2100 1300 2300 1300
+Wire Wire Line
+	2100 1400 2300 1400
+Wire Wire Line
+	2100 1500 2300 1500
+Wire Wire Line
+	2100 1600 2300 1600
+Wire Wire Line
+	2100 1700 2300 1700
+Wire Wire Line
+	1600 1300 1350 1300
+Wire Wire Line
+	1600 1400 1350 1400
+Wire Wire Line
+	1600 1500 1350 1500
+Wire Wire Line
+	1600 1600 1350 1600
+Wire Wire Line
+	1600 1700 1350 1700
+Text Label 1350 1300 0    50   ~ 0
+D7
+Text Label 2300 1300 0    50   ~ 0
+D8
+Wire Wire Line
+	2550 950  2550 1050
+Wire Wire Line
+	2300 950  2550 950 
+Text Label 1350 1400 0    50   ~ 0
+D9
+Text Label 2300 1400 0    50   ~ 0
+D10
+Text Label 1350 1500 0    50   ~ 0
+D11
+Text Label 2300 1500 0    50   ~ 0
+D12
+Text Label 1350 1600 0    50   ~ 0
+D13
+Text Label 2300 1600 0    50   ~ 0
+D14
+Text Label 1350 1700 0    50   ~ 0
+D15
+Text Label 2300 1700 0    50   ~ 0
+D16
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J10
+U 1 1 61C3F757
+P 4300 1550
+F 0 "J10" H 4350 1867 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 4350 1776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4300 1550 50  0001 C CNN
+F 3 "~" H 4300 1550 50  0001 C CNN
+	1    4300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 61C3FFA0
+P 3700 1200
+F 0 "#PWR07" H 3700 1050 50  0001 C CNN
+F 1 "VCC" H 3715 1373 50  0000 C CNN
+F 2 "" H 3700 1200 50  0001 C CNN
+F 3 "" H 3700 1200 50  0001 C CNN
+	1    3700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1200 3700 1450
+Wire Wire Line
+	3700 1450 4100 1450
+Wire Wire Line
+	4100 1650 3700 1650
+Wire Wire Line
+	3700 1650 3700 1450
+Connection ~ 3700 1450
+$Comp
+L power:GND #PWR08
+U 1 1 61C41564
+P 5050 1850
+F 0 "#PWR08" H 5050 1600 50  0001 C CNN
+F 1 "GND" H 5055 1677 50  0000 C CNN
+F 2 "" H 5050 1850 50  0001 C CNN
+F 3 "" H 5050 1850 50  0001 C CNN
+	1    5050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1450 5050 1450
+Wire Wire Line
+	5050 1450 5050 1650
+Wire Wire Line
+	4600 1650 5050 1650
+Connection ~ 5050 1650
+Wire Wire Line
+	5050 1650 5050 1850
+Wire Wire Line
+	4600 1550 4800 1550
+Wire Wire Line
+	4100 1550 3850 1550
+Text Label 4400 2800 0    50   ~ 0
+D7
+Text Label 4400 3000 0    50   ~ 0
+D8
+$Comp
+L Connector_Generic:Conn_01x01 J12
+U 1 1 61C43F59
+P 5000 2600
+F 0 "J12" H 5080 2642 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 2551 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 2600 50  0001 C CNN
+F 3 "~" H 5000 2600 50  0001 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J13
+U 1 1 61C44C73
+P 5000 2800
+F 0 "J13" H 5080 2842 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 2751 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 2800 50  0001 C CNN
+F 3 "~" H 5000 2800 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J14
+U 1 1 61C44F1B
+P 5000 3000
+F 0 "J14" H 5080 3042 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 2951 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J15
+U 1 1 61C45131
+P 5000 3200
+F 0 "J15" H 5080 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 3151 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 3200 50  0001 C CNN
+F 3 "~" H 5000 3200 50  0001 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J16
+U 1 1 61C45419
+P 5000 3400
+F 0 "J16" H 5080 3442 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 3351 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 3400 50  0001 C CNN
+F 3 "~" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J17
+U 1 1 61C4562F
+P 5000 3600
+F 0 "J17" H 5080 3642 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 3551 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 3600 50  0001 C CNN
+F 3 "~" H 5000 3600 50  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J18
+U 1 1 61C458B9
+P 5000 3800
+F 0 "J18" H 5080 3842 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 3751 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 3800 50  0001 C CNN
+F 3 "~" H 5000 3800 50  0001 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 61C45B37
+P 5000 2400
+F 0 "J11" H 5080 2442 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 2351 50  0000 L CNN
+F 2 "Custom:CubeCenterPad" H 5000 2400 50  0001 C CNN
+F 3 "~" H 5000 2400 50  0001 C CNN
+	1    5000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2400 4400 2400
+Wire Wire Line
+	4800 2600 4400 2600
+Wire Wire Line
+	4800 2800 4400 2800
+Wire Wire Line
+	4800 3000 4400 3000
+Wire Wire Line
+	4800 3200 4400 3200
+Wire Wire Line
+	4800 3400 4400 3400
+Wire Wire Line
+	4800 3600 4400 3600
+Wire Wire Line
+	4800 3800 4400 3800
+Text Label 4400 2400 0    50   ~ 0
+D9
+Text Label 4400 2600 0    50   ~ 0
+D10
+Text Label 3850 1550 0    50   ~ 0
+D11
+Text Label 4800 1550 0    50   ~ 0
+D12
+Text Label 4400 3200 0    50   ~ 0
+D13
+Text Label 4400 3400 0    50   ~ 0
+D14
+Text Label 4400 3600 0    50   ~ 0
+D15
+Text Label 4400 3800 0    50   ~ 0
+D16
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 61C4ABA2
+P 3700 2400
+F 0 "J2" H 3780 2442 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 2351 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 2400 50  0001 C CNN
+F 3 "~" H 3700 2400 50  0001 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 61C4B336
+P 3700 2600
+F 0 "J3" H 3780 2642 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 2551 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 2600 50  0001 C CNN
+F 3 "~" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 61C4B4FE
+P 3700 2800
+F 0 "J4" H 3780 2842 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 2751 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 2800 50  0001 C CNN
+F 3 "~" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 61C4B720
+P 3700 3000
+F 0 "J5" H 3780 3042 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 2951 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 3000 50  0001 C CNN
+F 3 "~" H 3700 3000 50  0001 C CNN
+	1    3700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 61C4B932
+P 3700 3200
+F 0 "J6" H 3780 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 3151 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 3200 50  0001 C CNN
+F 3 "~" H 3700 3200 50  0001 C CNN
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 61C4BB49
+P 3700 3400
+F 0 "J7" H 3780 3442 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 3351 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 3400 50  0001 C CNN
+F 3 "~" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 61C4BE03
+P 3700 3600
+F 0 "J8" H 3780 3642 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 3551 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 3600 50  0001 C CNN
+F 3 "~" H 3700 3600 50  0001 C CNN
+	1    3700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 61C4BFDE
+P 3700 3800
+F 0 "J9" H 3780 3842 50  0000 L CNN
+F 1 "Conn_01x01" H 3780 3751 50  0000 L CNN
+F 2 "Custom:CubeSidePad" H 3700 3800 50  0001 C CNN
+F 3 "~" H 3700 3800 50  0001 C CNN
+	1    3700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 61C4C291
+P 3100 2250
+F 0 "#PWR05" H 3100 2100 50  0001 C CNN
+F 1 "VCC" H 3115 2423 50  0000 C CNN
+F 2 "" H 3100 2250 50  0001 C CNN
+F 3 "" H 3100 2250 50  0001 C CNN
+	1    3100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2250 3100 2400
+Wire Wire Line
+	3100 2400 3500 2400
+Wire Wire Line
+	3500 2600 3100 2600
+Wire Wire Line
+	3100 2600 3100 2400
+Connection ~ 3100 2400
+Wire Wire Line
+	3500 2800 3100 2800
+Wire Wire Line
+	3100 2800 3100 2600
+Connection ~ 3100 2600
+Wire Wire Line
+	3500 3000 3100 3000
+Wire Wire Line
+	3100 3000 3100 2800
+Connection ~ 3100 2800
+$Comp
+L power:GND #PWR06
+U 1 1 61C4F807
+P 3100 4000
+F 0 "#PWR06" H 3100 3750 50  0001 C CNN
+F 1 "GND" H 3105 3827 50  0000 C CNN
+F 2 "" H 3100 4000 50  0001 C CNN
+F 3 "" H 3100 4000 50  0001 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3800 3100 3800
+Wire Wire Line
+	3100 3800 3100 4000
+Wire Wire Line
+	3500 3600 3100 3600
+Wire Wire Line
+	3100 3600 3100 3800
+Connection ~ 3100 3800
+Wire Wire Line
+	3500 3400 3100 3400
+Wire Wire Line
+	3100 3400 3100 3600
+Connection ~ 3100 3600
+Wire Wire Line
+	3500 3200 3100 3200
+Wire Wire Line
+	3100 3200 3100 3400
+Connection ~ 3100 3400
+$EndSCHEMATC
