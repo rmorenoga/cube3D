@@ -1,4 +1,4 @@
-https://github.com/cellularbricks/cellularbricks.github.io/raw/refs/heads/main/cellular_brick_banner_wide.mp4
+https://github.com/user-attachments/assets/da8bfa61-0a1e-48aa-958f-0410e7f2b091
 
 # Smart Cellular Bricks for Decentralized Shape Classification and Damage Recovery
 
@@ -17,7 +17,8 @@ Follow the instructions in the jupyter notebook to install the required Python p
 - pygifsicle
 
 and the **gifsicle** program which can be installed by calling in a cell:
-!sudo apt-get install gifsicle
+
+	!sudo apt-get install gifsicle
 
 Uploading the firmware to the cubes uses Python scripts, the requirements.txt in /OTAPython/ lists the necessary dependencies.
 Getting data from the cubes requires installing [docker](docker.com/) in your system.
